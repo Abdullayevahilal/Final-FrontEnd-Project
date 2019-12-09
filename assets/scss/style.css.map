@@ -1,8 +1,14 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,OAAO,CAAC,4LAAI;AGAZ,AAAA,UAAU,CAAC;EACT,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,GAAG;CAkCb;;AApCD,AAKE,UALQ,CAKR,YAAY,CAAC;EACX,gBAAgB,ELDN,OAAO;CKElB;;AAPH,AAQE,UARQ,CAQR,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAwBpB;;AAnCH,AAaI,UAbM,CAQR,cAAc,CAKZ,IAAI,CAAC;EACH,KAAK,ELLC,IAAI;EKMV,WAAW,EAAE,IAAI;EACjB,SAAS,ELCM,IAAI;CKApB;;AAjBL,AAkBI,UAlBM,CAQR,cAAc,CAUZ,CAAC,CAAC;EACA,KAAK,ELVC,IAAI;EKWV,WAAW,EAAE,IAAI;EACjB,SAAS,ELJM,IAAI;CKKpB;;AAtBL,AAyBE,UAzBQ,CAQR,cAAc,CAiBd,CAAC,CAAC;EACA,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,GAAG;EACjB,WAAW,EAAE,GAAG;CAKnB;;AAlCD,AA+BI,UA/BM,CAQR,cAAc,CAiBd,CAAC,AAME,MAAM,CAAA;EACH,KAAK,ELvBD,IAAI;CKwBX",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "shared/_variables.scss",
+        "shared/_mixings.scss",
+        "shared/_fonts.scss",
+        "components/_footer.scss",
+        "components/_header.scss",
+        "pages/_home.scss"
     ],
     "names": [],
     "file": "style.css"
