@@ -7,5 +7,6 @@ $(document).ready(function(){
     })
     $(".feature-body").mouseleave(function(){
         $(this).find(".round").removeClass("d-block").addClass("d-none")
-    })
+    });
+    $("#service-slider").owlCarousel();
 })
