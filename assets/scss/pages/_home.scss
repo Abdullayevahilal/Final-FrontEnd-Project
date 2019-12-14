@@ -34,7 +34,7 @@
     }
   }
 }
-//Social Media//
+//Social Media //
 .header-wrapper {
   box-sizing: border-box;
   display: block;
@@ -42,21 +42,48 @@
   .top-header {
     padding: 10px 0;
     background-color: #343a40;
+    .btn {
+      color: white;
+      font-size: 14px;
+    }
 
     .container {
       margin-left: auto;
       margin-right: auto;
       margin-top: 0;
+      .contact-info {
+    list-style: none;
+    display: flex;
+
+    
+    li{
+      margin-right: 20px;
+     
+      a{
+    text-decoration: none;
+    color: white !important;
+    margin-top: 5px;
+    
+    &:hover {
+      color: $color-warning;
+    }
+
+      }
+    }
+      }
       .icon {
         float: right;
         .social-icon {
           align-items: center;
           text-align: right;
           padding-inline-start: 40px;
+          margin-right: 23px;
 
           li {
             display: inline-block;
             padding: 2px 3px;
+            margin-right: 10px;
+           
             a {
               vertical-align: middle;
               font-size: 16px;
@@ -64,8 +91,13 @@
               width: 32px;
               line-height: 30px;
               color: #fff;
+              text-decoration: none;
+              &:hover {
+                color: $color-warning;
+              }
             }
           }
+          
         }
       }
     }
@@ -283,12 +315,13 @@ section {
   .catagories {
     text-align: center;
     margin-top: 50px;
+    overflow: hidden;
 
     .heartbeaticon {
-      height: 123px;
-      width: 200px;
-      background-color: blue;
-      margin-right: 10px;
+      height: 130px;
+      width: 95% !important;
+      background-color: #38ddf7;
+      margin-right: 20px;
       border-radius: 6px;
       .fa-heartbeat {
         // background-color:$red-color;
@@ -296,82 +329,100 @@ section {
         text-align: center;
         justify-content: center;
         margin-top: 30px;
+        font-size: 30px;
       }
       h4 {
         color: white;
         text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
       }
     }
     .codeicon {
-      height: 123px;
-      width: 200px;
+      height: 130px;
+      width: 95% !important;
       background-color: $color-orange;
-      margin-right: 10px;
+      margin-right: 20px;
       border-radius: 6px;
       .fa-code {
         color: white;
         margin-top: 30px;
+        font-size: 30px;
       }
       h4 {
         color: white;
+        margin-top: 10px;
+        font-size: 18px;
       }
     }
     .businessicon {
-      height: 123px;
-      width: 200px;
+      height: 130px;
+      width: 95% !important;
       background-color: lightgreen;
-      margin-right: 10px;
+      margin-right: 20px;
       border-radius: 6px;
       .fa-chart-bar {
         color: white;
         margin-top: 30px;
+        font-size: 30px;
       }
       h4 {
         color: white;
+        margin-top: 10px;
+        font-size: 18px;
       }
     }
     .globeicon {
-      height: 123px;
-      width: 200px;
-      background-color: red;
-      margin-right: 10px;
+      height: 130px;
+      width: 95% !important;
+      background-color: $color-danger;
+      margin-right: 20px;
       border-radius: 6px;
       .fa-globe {
         color: white;
         margin-top: 30px;
+        font-size: 30px;
       }
       h4 {
         color: white;
+        margin-top: 10px;
+        font-size: 18px;
       }
     }
     .bookicon {
-      height: 123px;
-      width: 200px;
-      background-color: yellow;
-      margin-right: 10px;
+      height: 130px;
+      width: 95% !important;
+      background-color: $color-warning;
+      margin-right: 20px;
       border-radius: 6px;
       .fa-book {
         color: white;
         margin-top: 30px;
+        font-size: 30px;
       }
 
       h4 {
         color: white;
+        font-size: 18px;
+        margin-top: 10px;
       }
     }
     .cameraicon {
-      height: 123px;
-      width: 200px;
+      height: 130px;
+      width: 95% !important;
       background-color: $color-pink;
-      margin-right: 10px;
+      margin-right: 20px;
       border-radius: 6px;
       .fa-camera {
         color: white;
         margin-top: 30px;
         border-radius: 10px;
+        font-size: 30px;
       }
       h4 {
         color: white;
+        font-size: 18px;
+        margin-top: 10px;
       }
     }
   }
@@ -433,35 +484,46 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     margin-top: 30px;
-    h4 {
-      a {
-        text-decoration: none;
-        color: #292b2c;
-        img {
-          border-radius: 100%;
-          max-width: 40px;
-          margin-right: 10px;
-        }
-      }
-    }
     img {
       max-width: 100%;
       vertical-align: middle;
       border-style: none;
+      &:hover {
+        transform: scale(1);
+      }
     }
     .card-body {
       position: relative;
       padding: 15px;
-      .card-title {
+      h4 {
         a {
+          text-decoration: none;
+          color: #292b2c;
+          font-weight: 500 !important;
           font-size: 18px;
           margin-bottom: 10px;
-          font-weight: 500;
           line-height: 1.2;
-          font-weight: 500;
-          line-height: 1.2;
+
+          // img {
+          //   border-radius: 100%;
+          //   max-width: 40px;
+          //   margin-right: 10px;
+          //   &:hover {
+          //     transform: scale(1);
+          //   }
         }
       }
+
+      // .card-title {
+      //   a {
+      //     font-size: 18px;
+
+      //     font-weight: 500;
+
+      //     font-weight: 500;
+      //     line-height: 1.2;
+      //   }
+      // }
       .courses-icon {
         display: inline-block;
         width: 100%;
@@ -477,9 +539,16 @@ section {
             i {
               margin-right: 6px;
               font-size: 14px;
+              &:hover {
+                color: $color-warning;
+              }
             }
             a {
               color: #292b2c;
+              text-decoration: none;
+              &:hover {
+                color: $color-warning;
+              }
             }
           }
         }
@@ -507,8 +576,11 @@ section {
             margin-right: 10px;
           }
           a {
-            color: $color-warning;
+            color: $primary-black-color;
             text-decoration: none;
+            &:hover {
+              color: $color-warning;
+            }
           }
         }
       }
@@ -591,60 +663,68 @@ section {
     .card-event {
       padding: 15px;
       .card-title {
-        font-size: 18px;
-        margin-bottom: 10px;
-        font-family: "Rubik", sans-serif;
-        font-weight: 500;
-        line-height: 1.2;
-        text-decoration: none;
-        color: #292b2c !important;
-        transition: all 0.5s ease;
+        a {
+          font-size: 18px;
+          margin-bottom: 10px;
+          font-family: "Rubik", sans-serif;
+          font-weight: 500;
+          line-height: 1.2;
+          text-decoration: none;
+          color: #292b2c !important;
+          transition: all 0.5s ease;
+          &:hover {
+            color: $color-warning !important;
+          }
+        }
       }
       .event-icon {
         border-bottom: 1px solid #ddd;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
-        display: inline-block;
+        display: flex;
         width: 100%;
         vertical-align: middle;
         .user {
+          margin-left: -40px;
           li {
             float: left;
             padding-right: 15px;
             font-size: 15px;
             list-style: none;
             i {
-              margin-right: 6px;
-              font-size: 14px;
+              margin-right: -10px;
+              font-size: 16px;
             }
             a {
               text-decoration: none !important;
               color: $color-warning !important;
+              font-weight: 600;
             }
           }
         }
         .map {
+          margin-left: -30px;
           i {
             color: $secondary-black-color;
           }
           li {
+            display: inline;
             color: $color-warning;
             list-style: none;
+            font-weight: 600;
           }
         }
       }
+    }
+    p {
+      margin-left: 15px;
     }
   }
 }
 //Register//
 #register {
+  background-image: url("../img/pattern_bg.png");
   background-position: center center;
   background-size: cover;
-  background-image: url(assets/img/pattern_bg.png);
   background-color: #07294d;
-  padding-bottom: 0 !important;
-  padding: 100px 0;
-  position: relative;
   width: 100%;
   .register-info {
     background-color: rgba(255, 255, 255, 0.1);
@@ -654,7 +734,10 @@ section {
     padding-left: 43px;
     padding-right: 30px;
     .register-heading {
-      color: white !important;
+      h2 {
+        color: white !important;
+      }
+
       .text {
         color: $color-warning;
       }
@@ -668,10 +751,12 @@ section {
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 1rem;
+    ::placeholder {
+      color: white;
+    }
 
     .form-control {
       background-color: transparent;
-      color: #fff;
       border-color: #fff;
       height: 47px;
       padding: 10px 20px;
@@ -679,6 +764,11 @@ section {
       width: 100%;
       border: 1px solid #ced4da;
       border-radius: 0.25rem;
+      font-size: 18px;
+      font-weight: 500;
+      .select {
+        color: white;
+      }
     }
   }
   .btn-warning {
@@ -688,6 +778,123 @@ section {
     margin-left: 10px;
   }
 }
+//Gallery
+//Teacher
+#teachers {
+  width: 100%;
+  height: 680px;
+  overflow: hidden;
+  background-image: url("../img/teacher_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .text-teachers {
+    h2 {
+      color: white !important;
+    }
+    p {
+      color: white !important;
+    }
+  }
+
+  .team-box {
+    .team-img {
+      position: relative;
+      .cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 255px;
+        background-color: black;
+        opacity: 0;
+        transition: all 0.5s;
+      }
+
+      border-radius: 10px 10px 0 0;
+      .teacher-icon {
+        li {
+          display: inline;
+         
+        }
+        top: 100%;
+        text-align: center;
+        padding: 2px 3px;
+        list-style: none;
+        opacity: 0;
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+        transition: all 1s;
+
+        a {
+          color: #fff;
+          border-color: #fff;
+          font-size: 18px;
+          height: 35px;
+          width: 35px;
+          line-height: 36px;
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          text-decoration: none;
+          transition: all 0.5s;
+          &:hover{
+            color: $color-warning !important;
+          }
+        }
+      }
+    }
+    .team_title {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 0 0 10px 10px;
+      text-align: center;
+      h5 {
+        color: #292b2c;
+        font-family: "Rubik", sans-serif;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        a {
+          text-decoration: none;
+          color: #292b2c !important;
+        }
+      }
+      span {
+        color: $secondary-black-color;
+        font-family: "Rubik", sans-serif;
+      }
+    }
+    &:hover {
+      .team-img {
+        .cover {
+          opacity: 0.5;
+        }
+        .teacher-icon {
+          top: 100px;
+          left: 50px;
+          opacity: 1;
+         
+        }
+      }
+    }
+  }
+
+  .teacher-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(7, 41, 77, 0.9);
+    width: 100%;
+    height: 100%;
+    opacity: 1.2;
+  }
+}
+
 //Client//
 #client {
   .regular {
@@ -724,7 +931,7 @@ section {
     }
   }
   .button {
-    text-align: right!important;
+    text-align: right !important;
     .btn-outline-white {
       background-color: transparent;
       border: 2px solid #ffffff;
@@ -734,15 +941,15 @@ section {
       transition: all 0.5s;
       &:hover {
         background-color: white;
-        color:$color-warning;
+        color: $color-warning;
       }
-  }
-  .btn {
-    cursor: pointer;
-    line-height: normal;
-    border-radius: 6px;
-    text-align: center;
-  }
+    }
+    .btn {
+      cursor: pointer;
+      line-height: normal;
+      border-radius: 6px;
+      text-align: center;
+    }
   }
 }
 

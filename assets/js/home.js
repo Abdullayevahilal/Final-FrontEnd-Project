@@ -11,7 +11,14 @@ $(document).ready(function () {
     });
     $("#service-slider").owlCarousel();
 
+    //Catagories
+    
+ $('.catagories').slick({
+        arrows: true,
+        slidesToShow: 6,
+        slidesToScroll: 1
 
+ });
     //Client slider
 
     $('.regular').slick({
@@ -19,7 +26,7 @@ $(document).ready(function () {
         slidesToShow: 6,
         slidesToScroll: 1
     });
-
+//Navbar
     $(window).scroll(function(){
         a = $(window).scrollTop()
         if (a>100){

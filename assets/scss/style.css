@@ -57,10 +57,36 @@
   background-color: #343a40;
 }
 
+.header-wrapper .top-header .btn {
+  color: white;
+  font-size: 14px;
+}
+
 .header-wrapper .top-header .container {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
+}
+
+.header-wrapper .top-header .container .contact-info {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-wrapper .top-header .container .contact-info li {
+  margin-right: 20px;
+}
+
+.header-wrapper .top-header .container .contact-info li a {
+  text-decoration: none;
+  color: white !important;
+  margin-top: 5px;
+}
+
+.header-wrapper .top-header .container .contact-info li a:hover {
+  color: #ffbc09;
 }
 
 .header-wrapper .top-header .container .icon {
@@ -74,11 +100,13 @@
   text-align: right;
   -webkit-padding-start: 40px;
           padding-inline-start: 40px;
+  margin-right: 23px;
 }
 
 .header-wrapper .top-header .container .icon .social-icon li {
   display: inline-block;
   padding: 2px 3px;
+  margin-right: 10px;
 }
 
 .header-wrapper .top-header .container .icon .social-icon li a {
@@ -88,6 +116,11 @@
   width: 32px;
   line-height: 30px;
   color: #fff;
+  text-decoration: none;
+}
+
+.header-wrapper .top-header .container .icon .social-icon li a:hover {
+  color: #ffbc09;
 }
 
 .header-wrapper .navbar {
@@ -320,13 +353,14 @@ section h2 {
 #catagories .catagories {
   text-align: center;
   margin-top: 50px;
+  overflow: hidden;
 }
 
 #catagories .catagories .heartbeaticon {
-  height: 123px;
-  width: 200px;
-  background-color: blue;
-  margin-right: 10px;
+  height: 130px;
+  width: 95% !important;
+  background-color: #38ddf7;
+  margin-right: 20px;
   border-radius: 6px;
 }
 
@@ -337,86 +371,101 @@ section h2 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 30px;
+  font-size: 30px;
 }
 
 #catagories .catagories .heartbeaticon h4 {
   color: white;
   text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 #catagories .catagories .codeicon {
-  height: 123px;
-  width: 200px;
+  height: 130px;
+  width: 95% !important;
   background-color: #f89035;
-  margin-right: 10px;
+  margin-right: 20px;
   border-radius: 6px;
 }
 
 #catagories .catagories .codeicon .fa-code {
   color: white;
   margin-top: 30px;
+  font-size: 30px;
 }
 
 #catagories .catagories .codeicon h4 {
   color: white;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 #catagories .catagories .businessicon {
-  height: 123px;
-  width: 200px;
+  height: 130px;
+  width: 95% !important;
   background-color: lightgreen;
-  margin-right: 10px;
+  margin-right: 20px;
   border-radius: 6px;
 }
 
 #catagories .catagories .businessicon .fa-chart-bar {
   color: white;
   margin-top: 30px;
+  font-size: 30px;
 }
 
 #catagories .catagories .businessicon h4 {
   color: white;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 #catagories .catagories .globeicon {
-  height: 123px;
-  width: 200px;
-  background-color: red;
-  margin-right: 10px;
+  height: 130px;
+  width: 95% !important;
+  background-color: #f6475f;
+  margin-right: 20px;
   border-radius: 6px;
 }
 
 #catagories .catagories .globeicon .fa-globe {
   color: white;
   margin-top: 30px;
+  font-size: 30px;
 }
 
 #catagories .catagories .globeicon h4 {
   color: white;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 #catagories .catagories .bookicon {
-  height: 123px;
-  width: 200px;
-  background-color: yellow;
-  margin-right: 10px;
+  height: 130px;
+  width: 95% !important;
+  background-color: #ffbc09;
+  margin-right: 20px;
   border-radius: 6px;
 }
 
 #catagories .catagories .bookicon .fa-book {
   color: white;
   margin-top: 30px;
+  font-size: 30px;
 }
 
 #catagories .catagories .bookicon h4 {
   color: white;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 #catagories .catagories .cameraicon {
-  height: 123px;
-  width: 200px;
+  height: 130px;
+  width: 95% !important;
   background-color: #f94fa4;
-  margin-right: 10px;
+  margin-right: 20px;
   border-radius: 6px;
 }
 
@@ -424,10 +473,13 @@ section h2 {
   color: white;
   margin-top: 30px;
   border-radius: 10px;
+  font-size: 30px;
 }
 
 #catagories .catagories .cameraicon h4 {
   color: white;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .about-video {
@@ -495,21 +547,15 @@ section h2 {
   margin-top: 30px;
 }
 
-#courses .card h4 a {
-  text-decoration: none;
-  color: #292b2c;
-}
-
-#courses .card h4 a img {
-  border-radius: 100%;
-  max-width: 40px;
-  margin-right: 10px;
-}
-
 #courses .card img {
   max-width: 100%;
   vertical-align: middle;
   border-style: none;
+}
+
+#courses .card img:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 #courses .card .card-body {
@@ -517,12 +563,12 @@ section h2 {
   padding: 15px;
 }
 
-#courses .card .card-body .card-title a {
+#courses .card .card-body h4 a {
+  text-decoration: none;
+  color: #292b2c;
+  font-weight: 500 !important;
   font-size: 18px;
   margin-bottom: 10px;
-  font-weight: 500;
-  line-height: 1.2;
-  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -549,8 +595,17 @@ section h2 {
   font-size: 14px;
 }
 
+#courses .card .card-body .courses-icon .user-like li i:hover {
+  color: #ffbc09;
+}
+
 #courses .card .card-body .courses-icon .user-like li a {
   color: #292b2c;
+  text-decoration: none;
+}
+
+#courses .card .card-body .courses-icon .user-like li a:hover {
+  color: #ffbc09;
 }
 
 #courses .card .card-body .courses-icon .stars {
@@ -584,8 +639,12 @@ section h2 {
 }
 
 #courses .card .card-footer .teacher li a {
-  color: #ffbc09;
+  color: #292b2c;
   text-decoration: none;
+}
+
+#courses .card .card-footer .teacher li a:hover {
+  color: #ffbc09;
 }
 
 #courses .card .price {
@@ -674,7 +733,7 @@ section h2 {
   padding: 15px;
 }
 
-#events .card-event-top .card-event .card-title {
+#events .card-event-top .card-event .card-title a {
   font-size: 18px;
   margin-bottom: 10px;
   font-family: "Rubik", sans-serif;
@@ -686,13 +745,21 @@ section h2 {
   transition: all 0.5s ease;
 }
 
+#events .card-event-top .card-event .card-title a:hover {
+  color: #ffbc09 !important;
+}
+
 #events .card-event-top .card-event .event-icon {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   vertical-align: middle;
+}
+
+#events .card-event-top .card-event .event-icon .user {
+  margin-left: -40px;
 }
 
 #events .card-event-top .card-event .event-icon .user li {
@@ -703,13 +770,18 @@ section h2 {
 }
 
 #events .card-event-top .card-event .event-icon .user li i {
-  margin-right: 6px;
-  font-size: 14px;
+  margin-right: -10px;
+  font-size: 16px;
 }
 
 #events .card-event-top .card-event .event-icon .user li a {
   text-decoration: none !important;
   color: #ffbc09 !important;
+  font-weight: 600;
+}
+
+#events .card-event-top .card-event .event-icon .map {
+  margin-left: -30px;
 }
 
 #events .card-event-top .card-event .event-icon .map i {
@@ -717,18 +789,21 @@ section h2 {
 }
 
 #events .card-event-top .card-event .event-icon .map li {
+  display: inline;
   color: #ffbc09;
   list-style: none;
+  font-weight: 600;
+}
+
+#events .card-event-top p {
+  margin-left: 15px;
 }
 
 #register {
+  background-image: url("../img/pattern_bg.png");
   background-position: center center;
   background-size: cover;
-  background-image: url(assets/img/pattern_bg.png);
   background-color: #07294d;
-  padding-bottom: 0 !important;
-  padding: 100px 0;
-  position: relative;
   width: 100%;
 }
 
@@ -741,7 +816,7 @@ section h2 {
   padding-right: 30px;
 }
 
-#register .register-info .register-heading {
+#register .register-info .register-heading h2 {
   color: white !important;
 }
 
@@ -760,9 +835,24 @@ section h2 {
   margin-bottom: 1rem;
 }
 
+#register .form-group ::-webkit-input-placeholder {
+  color: white;
+}
+
+#register .form-group :-ms-input-placeholder {
+  color: white;
+}
+
+#register .form-group ::-ms-input-placeholder {
+  color: white;
+}
+
+#register .form-group ::placeholder {
+  color: white;
+}
+
 #register .form-group .form-control {
   background-color: transparent;
-  color: #fff;
   border-color: #fff;
   height: 47px;
   padding: 10px 20px;
@@ -770,6 +860,12 @@ section h2 {
   width: 100%;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#register .form-group .form-control .select {
+  color: white;
 }
 
 #register .btn-warning {
@@ -777,6 +873,125 @@ section h2 {
   color: #ffffff !important;
   padding: 12px 30px;
   margin-left: 10px;
+}
+
+#teachers {
+  width: 100%;
+  height: 680px;
+  overflow: hidden;
+  background-image: url("../img/teacher_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#teachers .text-teachers h2 {
+  color: white !important;
+}
+
+#teachers .text-teachers p {
+  color: white !important;
+}
+
+#teachers .team-box .team-img {
+  position: relative;
+  border-radius: 10px 10px 0 0;
+}
+
+#teachers .team-box .team-img .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 255px;
+  background-color: black;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#teachers .team-box .team-img .teacher-icon {
+  top: 100%;
+  text-align: center;
+  padding: 2px 3px;
+  list-style: none;
+  opacity: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#teachers .team-box .team-img .teacher-icon li {
+  display: inline;
+}
+
+#teachers .team-box .team-img .teacher-icon a {
+  color: #fff;
+  border-color: #fff;
+  font-size: 18px;
+  height: 35px;
+  width: 35px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#teachers .team-box .team-img .teacher-icon a:hover {
+  color: #ffbc09 !important;
+}
+
+#teachers .team-box .team_title {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+}
+
+#teachers .team-box .team_title h5 {
+  color: #292b2c;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#teachers .team-box .team_title h5 a {
+  text-decoration: none;
+  color: #292b2c !important;
+}
+
+#teachers .team-box .team_title span {
+  color: #888888;
+  font-family: "Rubik", sans-serif;
+}
+
+#teachers .team-box:hover .team-img .cover {
+  opacity: 0.5;
+}
+
+#teachers .team-box:hover .team-img .teacher-icon {
+  top: 100px;
+  left: 50px;
+  opacity: 1;
+}
+
+#teachers .teacher-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(7, 41, 77, 0.9);
+  width: 100%;
+  height: 100%;
+  opacity: 1.2;
 }
 
 #client .regular {
