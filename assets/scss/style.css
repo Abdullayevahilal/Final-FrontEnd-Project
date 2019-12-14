@@ -489,7 +489,7 @@ section h2 {
 .about-video .about {
   margin-top: 28px;
   width: 107%;
-  height: 77%;
+  height: 82%;
   position: absolute;
   border-radius: 0 200px 200px 0;
   padding: 8%;
@@ -506,12 +506,12 @@ section h2 {
 .about-video .about .course-counter .danger {
   color: #f6475f;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   list-style-type: none;
 }
 
 .about-video .about .course-counter h6 {
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Rubik", sans-serif;
   color: #292b2c;
   margin-right: 20px;
@@ -520,7 +520,7 @@ section h2 {
 .about-video .about .course-counter .green {
   color: #b3d369;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   list-style-type: none;
 }
 
@@ -566,10 +566,14 @@ section h2 {
 #courses .card .card-body h4 a {
   text-decoration: none;
   color: #292b2c;
-  font-weight: 500 !important;
-  font-size: 18px;
+  font-weight: 600 !important;
+  font-size: 19px;
   margin-bottom: 10px;
   line-height: 1.2;
+}
+
+#courses .card .card-body h4 a:hover {
+  color: #ffbc09;
 }
 
 #courses .card .card-body .courses-icon {

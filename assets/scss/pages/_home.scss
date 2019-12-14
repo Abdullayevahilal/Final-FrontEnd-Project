@@ -433,7 +433,7 @@ section {
   .about {
     margin-top: 28px;
     width: 107%;
-    height: 77%;
+    height: 82%;
     position: absolute;
     border-radius: 0 200px 200px 0;
     padding: 8%;
@@ -445,11 +445,11 @@ section {
       .danger {
         color: $color-danger;
         font-size: 40px;
-        font-weight: 500;
+        font-weight: 600;
         list-style-type: none;
       }
       h6 {
-        font-size: 16px;
+        font-size: 20px;
         font-family: $primary-font;
         color: $primary-black-color;
         margin-right: 20px;
@@ -457,7 +457,7 @@ section {
       .green {
         color: #b3d369;
         font-size: 40px;
-        font-weight: 500;
+        font-weight: 600;
         list-style-type: none;
       }
     }
@@ -499,10 +499,13 @@ section {
         a {
           text-decoration: none;
           color: #292b2c;
-          font-weight: 500 !important;
-          font-size: 18px;
+          font-weight: 600 !important;
+          font-size: 19px;
           margin-bottom: 10px;
           line-height: 1.2;
+          &:hover {
+            color: $color-warning
+          }
 
           // img {
           //   border-radius: 100%;
