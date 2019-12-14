@@ -263,125 +263,119 @@ section {
   }
 }
 
-//Section Catagories//
-// .catagories {
-//   .text-catagories {
-//     text-align: center !important;
-//     h2 {
-//       color: $primary-black-color;
-//       font-family: $primary-font;
-//       font-size: 30px;
-//       font-weight: 500;
-//       line-height: 1.2;
-//       margin-bottom: 1rem;
-//     }
-//     p {
-//       color: $secondary-black-color;
-//       font-family: $primary-font;
-//     }
-//   }
-//   .regular {
-//     text-align: center;
-//     margin-top: 50px;
+// Section Catagories
+#catagories {
+  .text-catagories {
+    text-align: center;
+    h2 {
+      color: $primary-black-color;
+      font-family: $primary-font;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: $secondary-black-color;
+      font-family: $primary-font;
+    }
+  }
+  .catagories {
+    text-align: center;
+    margin-top: 50px;
 
-//     .heartbeaticon {
-//       height: 123px;
-//       width: 200px;
-//       background-color: blue;
-//       margin-right: 10px;
-//       border-radius: 6px;
-//       .fa-heartbeat {
-//         // background-color:$red-color;
-//         color: white;
-//         text-align: center;
-//         font-size: $icon-fontsize;
-//         justify-content: center;
-//         margin-top: 30px;
-//       }
-//       h4 {
-//         color: white;
-//         text-align: center;
-//       }
-//     }
-//     .codeicon {
-//       height: 123px;
-//       width: 200px;
-//       background-color: $orange-color;
-//       margin-right: 10px;
-//       border-radius: 6px;
-//       .fa-code {
-//         color: white;
-//         font-size: $icon-fontsize;
-//         margin-top: 30px;
-//       }
-//       h4 {
-//         color: white;
-//       }
-//     }
-//     .businessicon {
-//       height: 123px;
-//       width: 200px;
-//       background-color: $green-color;
-//       margin-right: 10px;
-//       border-radius: 6px;
-//       .fa-chart-bar {
-//         color: white;
-//         font-size: $icon-fontsize;
-//         margin-top: 30px;
-//       }
-//       h4 {
-//         color: white;
-//       }
-//     }
-//     .globeicon {
-//       height: 123px;
-//       width: 200px;
-//       background-color: $red-color;
-//       margin-right: 10px;
-//       border-radius: 6px;
-//       .fa-globe {
-//         color: white;
-//         font-size: $icon-fontsize;
-//         margin-top: 30px;
-//       }
-//       h4 {
-//         color: white;
-//       }
-//     }
-//     .bookicon {
-//       height: 123px;
-//       width: 200px;
-//       background-color: $yellow-color;
-//       margin-right: 10px;
-//       border-radius: 6px;
-//       .fa-book {
-//         color: white;
-//         font-size: $icon-fontsize;
-//         margin-top: 30px;
-//       }
+    .heartbeaticon {
+      height: 123px;
+      width: 200px;
+      background-color: blue;
+      margin-right: 10px;
+      border-radius: 6px;
+      .fa-heartbeat {
+        // background-color:$red-color;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      h4 {
+        color: white;
+        text-align: center;
+      }
+    }
+    .codeicon {
+      height: 123px;
+      width: 200px;
+      background-color: $color-orange;
+      margin-right: 10px;
+      border-radius: 6px;
+      .fa-code {
+        color: white;
+        margin-top: 30px;
+      }
+      h4 {
+        color: white;
+      }
+    }
+    .businessicon {
+      height: 123px;
+      width: 200px;
+      background-color: lightgreen;
+      margin-right: 10px;
+      border-radius: 6px;
+      .fa-chart-bar {
+        color: white;
+        margin-top: 30px;
+      }
+      h4 {
+        color: white;
+      }
+    }
+    .globeicon {
+      height: 123px;
+      width: 200px;
+      background-color: red;
+      margin-right: 10px;
+      border-radius: 6px;
+      .fa-globe {
+        color: white;
+        margin-top: 30px;
+      }
+      h4 {
+        color: white;
+      }
+    }
+    .bookicon {
+      height: 123px;
+      width: 200px;
+      background-color: yellow;
+      margin-right: 10px;
+      border-radius: 6px;
+      .fa-book {
+        color: white;
+        margin-top: 30px;
+      }
 
-//       h4 {
-//         color: white;
-//       }
-//     }
-//     .cameraicon {
-//       height: 123px;
-//       width: 200px;
-//       background-color: $pink-color;
-//       margin-right: 10px;
-//       border-radius: 6px;
-//       .fa-camera {
-//         color: white;
-//         font-size: $icon-fontsize;
-//         margin-top: 30px;
-//         border-radius: 10px;
-//       }
-//       h4 {
-//         color: white;
-//       }
-//     }
-//   }
-// }
+      h4 {
+        color: white;
+      }
+    }
+    .cameraicon {
+      height: 123px;
+      width: 200px;
+      background-color: $color-pink;
+      margin-right: 10px;
+      border-radius: 6px;
+      .fa-camera {
+        color: white;
+        margin-top: 30px;
+        border-radius: 10px;
+      }
+      h4 {
+        color: white;
+      }
+    }
+  }
+}
 //About//
 .about-video {
   background-color: rgb(245, 239, 239);
@@ -458,6 +452,16 @@ section {
     .card-body {
       position: relative;
       padding: 15px;
+      .card-title {
+        a {
+          font-size: 18px;
+          margin-bottom: 10px;
+          font-weight: 500;
+          line-height: 1.2;
+          font-weight: 500;
+          line-height: 1.2;
+        }
+      }
       .courses-icon {
         display: inline-block;
         width: 100%;
@@ -501,6 +505,10 @@ section {
             border-radius: 100%;
             max-width: 40px;
             margin-right: 10px;
+          }
+          a {
+            color: $color-warning;
+            text-decoration: none;
           }
         }
       }
@@ -700,11 +708,41 @@ section {
 }
 
 //Yellow Area//
-.bg-yellow {
+#traning {
   background-color: $color-warning !important;
-  h2 {
-    background-color: $color-warning;
-    color: #fff;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  .yellow-text {
+    margin-top: 10px;
+    vertical-align: middle;
+    h2 {
+      background-color: $color-warning;
+      color: #fff;
+    }
+    p {
+      color: $text-color !important;
+    }
+  }
+  .button {
+    text-align: right!important;
+    .btn-outline-white {
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      padding: 12px 30px;
+      margin-top: 23px;
+      transition: all 0.5s;
+      &:hover {
+        background-color: white;
+        color:$color-warning;
+      }
+  }
+  .btn {
+    cursor: pointer;
+    line-height: normal;
+    border-radius: 6px;
+    text-align: center;
+  }
   }
 }
 

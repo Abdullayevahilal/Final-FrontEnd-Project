@@ -299,6 +299,137 @@ section h2 {
   text-transform: capitalize;
 }
 
+#catagories .text-catagories {
+  text-align: center;
+}
+
+#catagories .text-catagories h2 {
+  color: #292b2c;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+#catagories .text-catagories p {
+  color: #888888;
+  font-family: "Rubik", sans-serif;
+}
+
+#catagories .catagories {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#catagories .catagories .heartbeaticon {
+  height: 123px;
+  width: 200px;
+  background-color: blue;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+#catagories .catagories .heartbeaticon .fa-heartbeat {
+  color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+#catagories .catagories .heartbeaticon h4 {
+  color: white;
+  text-align: center;
+}
+
+#catagories .catagories .codeicon {
+  height: 123px;
+  width: 200px;
+  background-color: #f89035;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+#catagories .catagories .codeicon .fa-code {
+  color: white;
+  margin-top: 30px;
+}
+
+#catagories .catagories .codeicon h4 {
+  color: white;
+}
+
+#catagories .catagories .businessicon {
+  height: 123px;
+  width: 200px;
+  background-color: lightgreen;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+#catagories .catagories .businessicon .fa-chart-bar {
+  color: white;
+  margin-top: 30px;
+}
+
+#catagories .catagories .businessicon h4 {
+  color: white;
+}
+
+#catagories .catagories .globeicon {
+  height: 123px;
+  width: 200px;
+  background-color: red;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+#catagories .catagories .globeicon .fa-globe {
+  color: white;
+  margin-top: 30px;
+}
+
+#catagories .catagories .globeicon h4 {
+  color: white;
+}
+
+#catagories .catagories .bookicon {
+  height: 123px;
+  width: 200px;
+  background-color: yellow;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+#catagories .catagories .bookicon .fa-book {
+  color: white;
+  margin-top: 30px;
+}
+
+#catagories .catagories .bookicon h4 {
+  color: white;
+}
+
+#catagories .catagories .cameraicon {
+  height: 123px;
+  width: 200px;
+  background-color: #f94fa4;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+#catagories .catagories .cameraicon .fa-camera {
+  color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#catagories .catagories .cameraicon h4 {
+  color: white;
+}
+
 .about-video {
   background-color: #f5efef;
 }
@@ -386,6 +517,15 @@ section h2 {
   padding: 15px;
 }
 
+#courses .card .card-body .card-title a {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 #courses .card .card-body .courses-icon {
   display: inline-block;
   width: 100%;
@@ -441,6 +581,11 @@ section h2 {
   border-radius: 100%;
   max-width: 40px;
   margin-right: 10px;
+}
+
+#courses .card .card-footer .teacher li a {
+  color: #ffbc09;
+  text-decoration: none;
 }
 
 #courses .card .price {
@@ -651,13 +796,50 @@ section h2 {
   max-width: 100%;
 }
 
-.bg-yellow {
+#traning {
   background-color: #ffbc09 !important;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-.bg-yellow h2 {
+#traning .yellow-text {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+#traning .yellow-text h2 {
   background-color: #ffbc09;
   color: #fff;
+}
+
+#traning .yellow-text p {
+  color: #fff !important;
+}
+
+#traning .button {
+  text-align: right !important;
+}
+
+#traning .button .btn-outline-white {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 12px 30px;
+  margin-top: 23px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#traning .button .btn-outline-white:hover {
+  background-color: white;
+  color: #ffbc09;
+}
+
+#traning .button .btn {
+  cursor: pointer;
+  line-height: normal;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .footer {
