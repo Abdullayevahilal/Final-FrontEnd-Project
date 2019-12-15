@@ -1,0 +1,135 @@
+a{
+    @include transition(all 0.3s);
+    &:hover{
+        color:$color-warning !important;
+    }
+}
+// #our-galerry {
+//     padding: 50px 0;
+  
+//     .col-md-4 {
+//         padding-right: 0 !important;
+//     }
+  
+//     .our-galerry-text {
+//         h2 {
+//             color: $primary-black-color;
+//             font-family: $secondary-font;
+//             font-size: 2rem;
+//             margin-bottom: 1rem;
+//             font-weight: 700;
+//             line-height: 1.2;
+//         }
+  
+//         p {
+//             color:$secondary-black-color;
+//             margin-top: 0;
+//             margin-bottom: 1rem;
+//         }
+  
+//     }
+  
+//     .galerry-button {
+//         .btn {
+//             padding: 5px 15px;
+//             font-family: $primary-font;
+  
+//             &:hover {
+//                 color: #fff;
+//                 background-color: $color-warning;
+  
+//                 &::before {
+//                     left: -50px !important;
+//                 }
+//             }
+//         }
+//     }
+  
+//     .grid {
+//         width: 100%;
+//         margin-left: 100px;
+  
+//     }
+  
+//     .grid:after {
+//         content: '';
+//         display: block;
+//         clear: both;
+//     }
+  
+//     .element-item {
+//         position: relative;
+//         float: left;
+//         width: 30%;
+//         margin: 5px;
+//         padding: 10px;
+//         border-radius: 2px;
+  
+//         &:hover {
+//             a {
+//                 @include transition(all 1s);
+//                 opacity: 1;
+//                 z-index: 999;
+//                 position: relative;
+//                 z-index: 999;
+//                 top: -34px;
+//                 left: -58%;
+//             }
+//         }
+  
+//         a {
+//             opacity: 0;
+//         }
+  
+//         .circle {
+//             position: absolute;
+//             left: 42%;
+//             top: -20px;
+//             text-align: center;
+  
+//             h5 {
+//                 position: absolute;
+//                 top: 70px;
+//                 left: -10px;
+//                 color: white;
+//             }
+//         }
+  
+//         img {
+//             border-radius: 10px;
+//         }
+  
+//         &::before {
+//             background-color: black;
+//             content: "";
+//             position: absolute;
+//             left: 10px;
+//             top: 10px;
+//             width: 94%;
+//             opacity: 0;
+//             height: 91%;
+//             -webkit-transition: all 0.5s;
+//             transition: all 0.5s ease-in-out;
+//             z-index: 999;
+//             border-radius: 10px;
+//         }
+  
+//         &:hover {
+//             &::before {
+//                 opacity: 0.5;
+//             }
+//         }
+  
+//     }
+  
+  
+  
+//     .element-item>* {
+//         margin: 0;
+//         padding: 0;
+//     }
+  
+//   }
+//   .bg_default{
+//       background-color: $color-warning;
+//   }
