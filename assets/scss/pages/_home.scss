@@ -63,6 +63,7 @@
     text-decoration: none;
     color: white !important;
     margin-top: 5px;
+    font-size: 16px;
     
     &:hover {
       color: $color-warning;
@@ -91,7 +92,7 @@
               width: 32px;
               line-height: 30px;
               color: #fff;
-              text-decoration: none;
+              text-decoration: none;              
               &:hover {
                 color: $color-warning;
               }
@@ -719,6 +720,9 @@ section {
     }
     p {
       margin-left: 15px;
+      color:$secondary-black-color;
+      margin-top: 0px;
+    font-size: 16px;
     }
   }
 }
@@ -897,6 +901,92 @@ section {
     opacity: 1.2;
   }
 }
+//students
+//Blog
+
+#blog {
+  .card-blog {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin-top: 30px;
+    img {
+      max-width: 100%;
+      vertical-align: middle;
+      border-style: none;
+      &:hover {
+        transform: scale(1);
+      }
+    }
+    .card-body {
+      position: relative;
+      padding: 15px;
+      background-color: white;
+      h4 {
+        a {
+          text-decoration: none;
+          color: $primary-black-color;
+          font-weight: 600 !important;
+          font-size: 17px;
+          margin-bottom: 10px;
+          line-height: 1.2;
+          font-family: $secondary-font;         
+        }
+        &:hover {
+          color: $color-warning;
+        }
+      }
+      a{
+        color: black !important;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: $secondary-font;
+        &:hover {
+          color: $color-warning;
+        }
+      }
+    }
+    .card-footer {
+      background-color: white;
+      border-radius: 0 0 10px 10px;
+      .blog-foot {
+        margin: 0;
+      padding: 0;
+   
+      li{
+        margin-right: 15px;
+        a {
+          font-size: 15px;
+          color:$secondary-black-color;
+          text-decoration: none;
+          font-family: $secondary-font;
+          i {
+            color: $color-warning;
+            font-size: 16px;
+            margin-right: 8px;
+          }
+          &:hover {
+            color: $color-warning;
+          }
+        }
+      }
+      }
+    }
+  }
+  .button {
+    text-align: center;
+    .btn {
+      cursor: pointer;
+    }
+    .btn-default {
+      border-color: $color-warning;
+      background-color: $color-warning;
+      border: 2px solid #ffbc09;
+      color: #ffffff !important;
+      padding: 12px 30px;
+      font-size: 16px;
+    }
+  }
+}
 
 //Client//
 #client {
@@ -958,11 +1048,27 @@ section {
 
 //Footer//
 .footer {
+  
+  p {
+    color: $text-color;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  h5 {
+    color: $text-color;
+  }
+  .useful-links {
+    margin-left: -36px;
+    line-height: 2.2;
+    font-size: 15px;
+}
+
+
+  }
   li {
     list-style-type: none;
   }
-  color: white;
-  list-style-type: disc;
+ 
   a {
     color: white;
     list-style-type: none !important;
@@ -975,4 +1081,4 @@ section {
     text-align: center;
     margin-right: 5px;
   }
-}
+  
