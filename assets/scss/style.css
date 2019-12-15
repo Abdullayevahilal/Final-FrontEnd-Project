@@ -765,6 +765,48 @@ section h2 {
   padding: 12px 30px;
 }
 
+#statics {
+  padding: 100px 0;
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#statics .statics {
+  background-color: rgba(0, 31, 63, 0.651);
+  position: absolute;
+  background-image: url("../img/counter_bg.jpg");
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1349px;
+  height: 525px;
+  -webkit-transform: translate3d(0px, -319.625px, 0px);
+          transform: translate3d(0px, -319.625px, 0px);
+  -webkit-transition: -webkit-transform 100ms ease 0s;
+  transition: -webkit-transform 100ms ease 0s;
+  transition: transform 100ms ease 0s;
+  transition: transform 100ms ease 0s, -webkit-transform 100ms ease 0s;
+  z-index: -1;
+}
+
+#statics .statics .item {
+  padding: 250px 50px;
+  color: white;
+  text-align: center;
+}
+
+#statics .statics .item p {
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#statics .statics .item span {
+  font-size: 18px;
+}
+
 #events .card-event-top {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
